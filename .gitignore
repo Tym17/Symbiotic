@@ -1,3 +1,7 @@
+# Project specific
+addon/*/*.js
+addon/*.js
+
 # Logs
 logs
 *.log

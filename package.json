@@ -1,0 +1,26 @@
+{
+  "name": "symbiotic",
+  "version": "1.0.0",
+  "description": "WebExtension Template",
+  "repository": "https://github.com/Tym17/Symbiotic.git",
+  "author": "Tym17 <Tym17@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "jasmine": "^3.5.0",
+    "web-ext": "^4.0.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "run:firefox": "web-ext run",
+    "lint": "eslint .",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  }
+}
